@@ -38,7 +38,7 @@ public class State {
 		for (Card c : hand) {
 			if (c.rank.name().equals("ACE") && !aceHasBeenAdded) { // check 
 				sum[0] += 1;
-				sum[1] += 10;
+				sum[1] += 11;
 				aceHasBeenAdded = true;
 			} else {
 				sum[0] += c.rank.getAction();

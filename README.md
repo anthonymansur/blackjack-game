@@ -37,7 +37,7 @@ An ArrayList was used to keep track of the player's and dealer's hand as well as
 entire deck itself. This allowed for easy searching and manipulation of a collection 
 of cards. 
 
-Since an Ace card can be worth either a one or a ten, an array was used to hold the two
+Since an Ace card can be worth either a one or an eleven, an array was used to hold the two
 different possible sums that a hand can take.
 
 
